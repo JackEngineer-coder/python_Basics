@@ -1,26 +1,26 @@
 # Treasure game
 
-# row1 = ["🥲","🥲","🥲"]
-# row2 = ["🥲","🥲","🥲"]
-# row3 = ["🥲","🥲","🥲"]
-# map=[row1,row2,row3]
-# print(f"{row1}\n{row2}\n{row3}")
-# location=input("Enter the treasure location")
+row1 = ["🥲","🥲","🥲"]
+row2 = ["🥲","🥲","🥲"]
+row3 = ["🥲","🥲","🥲"]
+map=[row1,row2,row3]
+print(f"{row1}\n{row2}\n{row3}")
+location=input("Enter the treasure location")
 
-# horizontal = int(location[0])
-# vertical = int(location[1])
+horizontal = int(location[0])
+vertical = int(location[1])
 
-# map[horizontal-1][vertical-1]="X"
-# print(f"{row1}\n{row2}\n{row3}")
-
-
+map[horizontal-1][vertical-1]="X"
+print(f"{row1}\n{row2}\n{row3}")
 
 
 
 
 
 
-# #Rock paper Scicor game
+
+
+Rock paper Scicor game
 rock = '''
     _______
 ---'   ____)
