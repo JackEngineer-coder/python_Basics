@@ -1,4 +1,4 @@
-code for checking prime numbers:
+#code for checking prime numbers:
 def Prime_number(number):
   isprime=True
   for i in range(2,number):
